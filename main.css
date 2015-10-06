@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 body {
-  background: #f9f9f9;
+  background: #FFF;
   font-family: 'Open Sans', sans-serif;
   color: #777;
   font-size: 16px;
@@ -17,15 +17,17 @@ h1.title {
 }
 
 section.default {
-  padding-bottom: 2em;
+  padding-bottom: 3em;
 }
 
 header {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 nav ul.main li {
   display: inline;
+  font-size: 0.9em;
+  margin-right: 1em;
 }
 
 .intro {
