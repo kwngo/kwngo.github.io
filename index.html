@@ -2,27 +2,50 @@
 <head>
   <title>Kareem Kwong</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="bower_components/skeleton/css/normalize.css" />
+  <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css" />
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-  <section class="intro">
+  <header>
     <div class="container">
-      <img src="head.svg" />
-      <h1 class="title">Hey, I'm Kareem.</h1>
-      <span>I'm a fullstack developer currently based in Toronto. Previously worked with the fantastic people at <a href="http://www.microsoft.com">Microsoft</a>, <a href="http://www.oneclass.com">OneClass</a> and <a href="http://www.canadiantire.ca">Canadian Tire</a>. Passionate about UI/UX, product and data. Studied at <a href="http://http://www.utoronto.ca/">University of Toronto</a>.</span>
+    <span style="color:#222;text-transform:uppercase;letter-spacing:2px;font-weight:700;font-size:1.2em">Kareem</span>
+    <nav style="display:inline-block;padding-left:2em;">
+    <ul class="main nav">
+      <li><a href="#">Blog</a></li>
+    </ul>
+    </nav>
+  </div>
+
+  </header>
+  <section class="intro default">
+    <div class="container">
+      <h6>About me</h6>
+      <span>Developer and product lead currently based in Toronto. Lives and eats UI/UX, marketing and data.</span>
     </div>
   </section>
-  <section class="projects">
+  <section class="experience default">
     <div class="container">
-    <h2>Personal projects</h2>
-      <a href="http://www.bowlofrice.co">Bowl of rice</a>, <a href="http://www.soundbiit.com">Soundbiit</a>, <a href="http://www.justdonut.com">Donut</a>.
+
+    <h6>Worked at</h6>
+    <ul>
+      <li><a href="http://www.microsoft.com">Microsoft - 2014</a></li>
+      <li><a href="http://www.oneclass.com">OneClass - 2013</a></li>
+      <li><a href="http://www.canadiantire.ca">Canadian Tire - 2012</a></li>
+    </ul>
+
     </div>
   </section>
-  <section class="contact">
-      <div class="container">
-        <h2>Contact</h2>
-        Find me on <a href="http://www.twitter.com">Twitter</a>, <a href="http://www.github.com/@kwngo">Github</a> or <a href="http://www.medium.com/@kwngo">Medium</a>
-      </div>
+  <section class="built default">
+    <div class="container">
+
+    <h6>Built</h6>
+    <ul>
+      <li><a href="http://www.bowlofrice.co">Bowl of rice</a></li>
+      <li><a href="http://www.soundbiit.com">Soundbiit</a></li>
+    </ul>
+
+    </div>
   </section>
 </body>
 <script src="main.js" async></script>
