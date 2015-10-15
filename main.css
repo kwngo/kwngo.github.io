@@ -34,6 +34,16 @@ nav ul.main li {
   margin-right: 1em;
 }
 
+#brand {
+  border:3px solid#222;
+  padding:4px;
+  color:#222;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight:700;
+  font-size:1.2em
+}
+
 #intro {
   padding: 75px 0;
 }
