@@ -1,19 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+
 body {
   background: #FFF;
-  font-family: 'Open Sans', sans-serif;
-  color: #777;
-  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #222;
+  font-size: 18px;
   margin: 0;
   padding: 1em 0;
+  line-height: 1.5;
 }
 
 h1.title {
 }
 
 .container {
-  width: 87%;
-  max-width: none !important;
+  margin: 0 auto;
+  width: 90%;
 }
 
 section.default {
@@ -26,15 +29,38 @@ header {
 
 nav ul.main li {
   display: inline;
-  font-size: 0.9em;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 0.7em;
   margin-right: 1em;
 }
 
-.intro {
+#intro {
+  padding: 75px 0;
+}
+
+#intro-content {
+  width: 370px;
+}
+#twitter {
+  color: #458FFF;
+  border-color: #458FFF;
+}
+#github {
+  color: #DDB493;
+  border-color: #DDB493;
+}
+#linkedin {
+  color: #27A3B1;
+  border-color: #27A3B1;
+}
+#behance {
+  color: #F64744;
+  border-color: #F64744;
 }
 a {
-  color: #999;
+  color: #222;
   text-decoration: none;
+  border-bottom: 2px solid #222;
 }
 
 a:hover {
@@ -48,7 +74,34 @@ ul {
 
 ul li {
 }
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  color: #222;
+
+footer {
+  padding-top: 80px;
+  bottom: 0;
 }
+#footer-text {
+  font-size: 0.7em;
+}
+
+@media (min-width: 400px) {
+  #intro-content {
+    width: 370px;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  #intro-content {
+    width: 520px;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
